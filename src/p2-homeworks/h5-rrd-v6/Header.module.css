@@ -1,0 +1,74 @@
+.panel {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    background: rgba(57, 57, 176, 0.33);
+    width: 30px;
+    height: 30px;
+    font: 14px Arial;
+    color: #372975;
+    text-align: center;
+    padding: 5px;
+    transition-duration: 0.5s;
+    border-radius: 0 5px 5px 0;
+}
+
+.hidden_panel {
+    position: fixed;
+    top: 20px;
+    left: -220px;
+    background: rgba(136, 98, 28, 0);
+    color: rgb(255, 0, 0);
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    text-align: left;
+    transition-duration: 0.5s;
+}
+
+.panel:hover {
+    left: 220px;
+}
+
+.panel:hover .hidden_panel {
+    left: 0;
+    /* отступ слева */
+}
+
+
+.a {
+    outline: none;
+    text-decoration: none;
+    padding: 0px 0px 0px 15px;
+    color: #0a9ca4;
+
+}
+
+
+a:link {
+
+}
+
+a:visited {
+    text-decoration: none;
+
+
+}
+
+a:focus {
+
+}
+
+a:hover {
+    color: #a25ed0;
+    /*background: rgba(154, 35, 140, 0.34);*/
+}
+
+a:active {
+    color: #35ff1e;
+
+}
+
+.homework {
+    padding: 0 0 33px 0;
+}

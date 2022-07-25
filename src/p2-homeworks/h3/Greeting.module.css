@@ -2,6 +2,6 @@
 
 }
 
-.error {
-    border: 3px solid red;
+.errorInput_red {
+    border: 3px solid red !important;
 }

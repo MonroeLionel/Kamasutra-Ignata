@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import GreetingContainer from './GreetingContainer'
 import {v1} from "uuid";
+import SuperInputText from "../h4/common/c1-SuperInputText/SuperInputText";
 
 export type UserType = {
    _id: string
@@ -24,7 +25,7 @@ function HW3() {
 
         {/*should work (должно работать)*/}
         <GreetingContainer users={users} addUserCallback={addUserCallback}/>
-
+        
         <hr/>
         {/*для личного творчества, могу проверить*/}
         {/*<AlternativeGreeting/>*/}
