@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Kamasutra-Ignata/static/css/main.2ef003fa.css",
-    "main.js": "/Kamasutra-Ignata/static/js/main.fd4e9881.js",
+    "main.js": "/Kamasutra-Ignata/static/js/main.4978b884.js",
     "index.html": "/Kamasutra-Ignata/index.html",
     "main.2ef003fa.css.map": "/Kamasutra-Ignata/static/css/main.2ef003fa.css.map",
-    "main.fd4e9881.js.map": "/Kamasutra-Ignata/static/js/main.fd4e9881.js.map"
+    "main.4978b884.js.map": "/Kamasutra-Ignata/static/js/main.4978b884.js.map"
   },
   "entrypoints": [
     "static/css/main.2ef003fa.css",
-    "static/js/main.fd4e9881.js"
+    "static/js/main.4978b884.js"
   ]
 }
